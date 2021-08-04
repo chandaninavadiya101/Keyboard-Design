@@ -1,0 +1,113 @@
+body{
+   background-color: rgb(78, 77, 77);
+}
+.maincontainer{
+   width: 1050px;
+   height: 700px;
+   margin: 5% 5%;
+   border-width: 20px;
+   border-style: solid;
+
+   border-color: rgb(132, 132, 134);
+   background-color: rgb(138, 138, 141);
+   border-radius: 20px;
+}
+.container{
+   width: 1030px;
+   height: 400px;
+   border-width: 10px;
+   border-style: solid;
+   border-color: rgb(99, 99, 100);
+   background-color: rgb(99, 99, 100);
+   border-radius: 20px;
+}
+.container .main, .row1, .row2, .row3, .row4, .row5, .row6{
+   display: flex;
+}
+.main div button, .row1 div button, .row2 div button, .row3 div button, .row4 div button, .row5 div button{
+   color:rgba(200, 200, 200, 7);
+   background-color:rgb(0, 0, 0);
+   width: 70px;
+   height: 70px;
+   border-radius: 8px;
+   font-size: 18px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.row1 .delete, .row2 .tab
+{
+   text-align: left;
+   width: 120px;
+}
+.row3 .capslock{
+   justify-content: baseline;
+   text-align: left;
+   width: 130px;
+}
+.row3 .return{
+   text-align: right;
+   width: 130px;
+}
+.row4 .shiftleft, .row4 .shiftright{
+   width: 165px;
+}
+.row2 .tab, .row3 .capslock, .row4 .shiftleft, .row5 .fn{
+   padding-top:40px;
+   text-align: left;
+}
+.row1 .delete, .row3 .return, .row4 .shiftright{
+   text-align: right;
+}
+.row5 .optionleft{
+   text-align: right;
+}
+.row5 .optionright{
+   text-align: left;
+}
+.row5 .control{
+   text-align: right;
+}
+.row5 .commandleft{
+   text-align: right;
+   width: 95px;
+}
+.row5 .commandright{
+   text-align: left;
+   width: 95px;
+}
+.row5 .space{
+   width: 350px;
+}
+.row5 .top,.row5 .down, .row5 .left, .row5 .right{
+   height: 35px;
+}
+.main .esc, .main .touchpanel, .main .finger{
+   height: 40px;
+
+}
+.main .touchpanel{width:898px;}
+.main .finger{width:60px;}
+.main .esc{
+   text-align: left;
+   font-size: 15px;
+}
+.row1 .delete,.row2 .tab,.row3 .capslock,.row3 .return,.row4 .shiftleft,.row4 .shiftright, .row5 .fn{
+   padding-top:40px;
+   font-size: 15px;
+}
+.row5 .control,.row5 .optionleft,.row5 .commandleft,.row5 .commandright, .row5 .optionright{
+   font-size: 15px;
+}
+.row6{
+   justify-content: center;
+}
+.row6 .mousepad{
+   margin: 0px;
+   padding-left: 100px;
+   height: 275px;
+   width: 400px;
+   border-width: 3px;
+   border-style: solid;
+   border-color: rgba(103, 103, 105, 0.979);
+   background-color: rgb(132, 132, 134);
+   border-radius: 15px;
+}
